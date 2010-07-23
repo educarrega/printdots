@@ -1,0 +1,33 @@
+#pagina_inicial_grafico_producao a{
+        text-align: center;
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	background: #444444 url(../../images/user_picture_medium.png) 20% 60%;
+	border: 1px solid #666666;
+	text-align: center;
+	font-size: 15px;
+	color: #CCCCCC;
+	float: left;
+	margin: 1px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#pagina_inicial_grafico_producao a:hover, #pagina_inicial_grafico_producao .dia_selecionado{
+	background: #444444 url(../../images/user_picture_medium.png) 20% 89%;
+}
+
+#pagina_inicial_grafico_producao div{
+    line-height: 20px;
+    height: 20px;
+}
+
+#pagina_inicial_grafico_producao div img{
+    vertical-align: bottom;
+    padding-bottom: 3px;
+    width: 15px;
+}

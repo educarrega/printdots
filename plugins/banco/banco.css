@@ -1,0 +1,126 @@
+#indices a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background: #444444 url(../../images/user_picture_medium.png) 20% 60%;
+	border: 1px solid #666666;
+	text-align: center;
+	font-size: 25px;
+	color: #CCCCCC;
+	float: left;
+	margin: 1px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+#indices a:hover{
+	background: #444444 url(../../images/user_picture_medium.png) 20% 89%;
+}
+.suggestionList li{
+	margin-left: -5px;
+	cursor: default;
+	width: 662px;
+	height: 65px;
+	overflow: hidden;
+}
+.banco_coluna_0{
+	width: 55px;
+	height: 63px;
+	text-align: center;
+	overflow: hidden;
+	float: left;
+	padding: 3px;
+}
+.banco_coluna_1{
+	width: 240px;
+	height: 63px;
+	overflow: hidden;
+	float: left;
+	padding: 3px;
+}
+.banco_coluna_2{
+	width: 300px;
+	height: 57px;
+	overflow: hidden;
+	padding: 3px;
+}
+.banco_coluna_2 img{
+	width: 14px;
+}
+.banco_titulo{
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px dotted #777777;
+	margin: 0 5px;
+}
+.banco_descricao{
+	text-transform: uppercase;
+	width: 300px;
+	margin: 5px;
+	font-size: 11px;
+	color: #CCC;
+}
+.banco_status{
+	width: 25px;
+	cursor: pointer;
+}
+.bt_controles{
+	position: absolute;
+	width: 48px;
+	height: 71px;
+	left: 917px;
+	padding: 2px;
+	color: #FFF;
+	background: #333;
+	border-left: 1px solid #666;
+	opacity: 0.9;
+	margin-top: -5px;
+	text-align: left;
+	display: none;
+}
+.bt_controles img{
+	width: 16px;
+	height: 16px;
+	margin: 3px;
+}
+.producao_busca_indice{
+	width: 50px;
+}
+.alter {
+	background: #555555;
+}
+#bt_add_banco{
+	position: absolute;
+	left: 905px;
+	margin-top: -26px;
+	z-index: 0;
+}
+#add_banco{
+	display: none;
+}
+hr{
+	margin-left: -4px;
+}
+#bt_limpar_banco{
+	position: absolute;
+	margin-top: -5px;
+	left: 660px;
+	width: 24px;
+	border: 0;
+	z-index: 0;
+}
+.carteira_status img{
+	float: right;
+	width: 12px;
+	margin: 3px;
+}
+.producao_painel_busca_middle_interno{
+	cursor: default;
+}
+.checkbox{
+	padding:0;
+	margin:0 5px 25px 0;
+	float: left;
+}

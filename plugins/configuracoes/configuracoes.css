@@ -1,0 +1,167 @@
+#indices a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background: #444444 url(../../images/user_picture_medium.png) 20% 60%;
+	border: 1px solid #666666;
+	text-align: center;
+	font-size: 25px;
+	color: #CCCCCC;
+	float: left;
+	margin: 1px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+#indices a:hover{
+	background: #444444 url(../../images/user_picture_medium.png) 20% 89%;
+}
+.suggestionList ul{
+	padding-left: 0;
+	margin-left: 28px;
+}
+.suggestionList li{
+	margin-left: 0px;
+	cursor: default;
+	border-left: 1px dotted #777777;
+	height: 45px;
+	overflow: hidden;
+}
+.colunas_0{
+	float: left;
+	width: 22px;
+}
+.colunas_1{
+	margin-left: 25px;
+}
+.colunas_2{
+	padding: 3px;
+	width: 47%;
+}
+.configuracoes_clip{
+	margin-left: -4px;
+	overflow: hidden;
+}
+.configuracoes_container{
+	margin-right: 5px;
+	margin-left: -32px;
+	margin-top: -26px;
+	height: auto;
+	overflow: hidden;
+}
+.fieldset_recursivo{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-left: 1px dotted #777777;
+	background: transparent;
+}
+.configuracoes_titulo{
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0 5px;
+}
+.configuracoes_descricao{
+	margin: 5px;
+	font-size: 11px;
+	color: #CCC;
+}
+.configuracoes_status{
+	width: 15px;
+	cursor: pointer;
+}
+.bt_controles{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 916px;
+	padding: 2px;
+	color: #FFF;
+	background: #333;
+	border-left: 1px solid #666;
+	opacity: 0.9;
+	margin-top: -3px;
+	text-align: left;
+	display: none;
+}
+.bt_controles img{
+	width: 16px;
+	height: 16px;
+	padding: 2px;
+}
+.producao_busca_indice{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+.producao_busca_indice img{
+	width: 14px;
+	height: 14px;
+	padding: 3px;
+}
+.alter {
+	background: #555555;
+	padding: 20px;
+}
+.user {
+	background: #444444;
+}
+#bt_add_configuracoes{
+	position: absolute;
+	left: 905px;
+	margin-top: -26px;
+	z-index: 0;
+}
+#add_configuracoes{
+	display: none;
+}
+hr{
+	margin-left: -4px;
+}
+.hr_absolute{
+	position: absolute;
+	left: 302px;
+	width: 670px;
+}
+.configuracoes_editor{
+	position: absolute;
+	left: 302px;
+	width: 670px;
+	z-index: 1;
+}
+#bt_limpar_configuracoes{
+	position: absolute;
+	margin-top: -5px;
+	left: 660px;
+	width: 24px;
+	border: 0;
+	z-index: 0;
+}
+.producao_painel_busca_middle_interno{
+	cursor: default;
+}
+
+.configuracoes_coluna_1{
+	width: 300px;
+	height: 63px;
+	overflow: hidden;
+	float: left;
+}
+.configuracoes_coluna_2{
+	width: 350px;
+	height: 57px;
+	overflow: hidden;
+}
+.text100{
+	width: 100%;
+}
+.bt_duplicar{
+	position: absolute;
+	margin-top: 130px;
+	left: 380px;
+	width: 32px;
+	border: 0;
+	background: transparent;
+}

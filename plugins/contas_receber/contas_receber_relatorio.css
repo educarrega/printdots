@@ -1,0 +1,113 @@
+.suggestionList li{
+	margin-left: -5px;
+	cursor: default;
+	width: 662px;
+	height: 65px;
+	overflow: hidden;
+}
+.box_venc{
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+	height: 45px;
+}
+.box_venc input[type="text"]{
+	width: 99%;
+}
+.box_venc select, .box_venc_duplo select{
+	width: 87px;
+	height: 25px;
+	margin-bottom: 0;
+	margin-top: 7px;
+}
+.box_venc_duplo, .box_venc_full{
+	width: 314px;
+	float: left;
+	margin-right: 0px;
+	height: 130px;
+}
+.box_venc_full{
+	width: 100%;
+}
+.box_venc_duplo textarea{
+	width: 305px;
+	height: 97px;
+}
+.bt_notificar{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 4px;
+}
+.documento{
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 19px;
+	width: 19px;
+}
+.vencimento_dia, #bt_novo_vencimento{
+	border:2px solid #999;
+	padding: 5px;
+	margin: 5px 0;
+	color: #FFF;
+	background: #555;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#bt_novo_vencimento, .bt_novo_vencimento{
+	width: 32px;
+	background: #666;
+	padding: 3px;
+	margin-top: 0px;
+}
+.venc_results span, .venc_results_r span, .venc_results_f span{
+	font-size: 9px;
+	color: #999;
+}
+.venc_results, .venc_results_r{
+	width: 80px;
+	height: 30px;
+	display: block;
+	float: left;
+	border-right: 1px dotted #ccc;
+	padding-left: 3px;
+	margin-bottom: 5px;
+}
+.venc_results_r{
+	border:0;
+}
+.bt_controles{
+	float: right;
+	border:2px solid #999;
+	padding: 5px;
+	margin: 5px 2px 2px 0;
+	color: #FFF;
+	background: #444;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#vencimento_cabecalio{
+	border:2px solid #999;
+	padding: 5px;
+	color: #FFF;
+	font-size: 25px;
+	background: #444;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* seletor de materiais */
+.div_textarea_scroll li{
+	width: 99%;
+	height: 15px;
+}
+.div_textarea_scroll input{
+	margin-bottom: 10px;
+	float: left;
+}
+.div_textarea_scroll label{
+	border: 0;
+	margin: 0;
+	display: inline;
+	color: #FFF;
+	font-size: 11px;
+}

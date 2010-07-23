@@ -1,0 +1,257 @@
+.body{
+	background-color: #333333;
+	color: #CCCCCC;
+	font-family: "Liberation sans", "Segoe ui", Helvetica, Arial, Tahoma, Verdana;
+	font-size: 12px;
+	margin: 0;
+	padding: 5px;
+}
+
+fieldset {
+	border: 1px dotted #666666;
+	margin-bottom: 10px;
+	padding-bottom: 0;
+	margin-right: 10px;
+	background: #5b5b5b;
+	border-top: 6px solid #999999;
+}
+
+fieldset fieldset{
+	background: #444;
+	border-top: 1px dotted #999;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+legend {
+	color: #FFFFFF;
+	background: #444444;
+	border: 2px solid #999999;
+	padding: 9px;
+	font-size: 20px;
+	font-family: "Liberation Sans", Arial, Verdana;
+	margin: 10px 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+} 
+
+fieldset fieldset legend{
+	color: #333;
+	background: #CCC;
+	font-size: 16px;
+	padding: 5px;
+}
+
+legend img{
+	width: 25px;
+	vertical-align: middle;
+}
+
+label {
+	font-size: 15px;
+	color: #111111;
+	text-align: left;
+	margin: 5px 0;
+	border-bottom: 1px dotted #777777;
+	display: block;
+}
+fieldset fieldset label{
+	font-size: 12px;
+	color: #FFF;
+	border:0;
+	margin: 3px 0;
+}
+
+input, select, textarea, .frame_faturamento, .historico {
+	font-family: "Liberation Sans", Arial, Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #666666;
+	margin-bottom: 25px;
+	border: 2px solid #999999;
+	padding: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#panel_container label{
+	text-align: center;
+	color: #CCC;
+	border: 0;
+}
+.div_textarea_scroll{
+	font-family: "Liberation Sans", Arial, Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #666666;
+	margin-bottom: 25px;
+	border: 2px solid #999999;
+	padding: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height: 100px;
+	overflow: auto;
+}
+.div_textarea_scroll li{
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+}
+.text{
+	width: 70px;
+}
+.submit input {
+	margin-left: 4.5em;
+}
+
+.submit {
+	color: #CCCCCC;
+	background: #333333;
+	border: 2px solid #666666;
+	font-size: 18px;
+}
+
+.image {
+	background: transparent;
+	border: 0;
+}
+
+
+textarea, .frame_faturamento, .historico{
+width: 98%;
+}
+.historico hr{
+	margin: 10px 0;
+}
+
+.titulo_servico{
+	width: 98%;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+.status_radio{
+	display: block;
+	margin-top: 15px;
+	width: 68px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.colunas_2{
+	width:48%;
+	float: left;
+	margin-right: 10px;
+}
+.colunas_3{
+	width:30%;
+	float: left;
+	margin-right: 10px;
+}
+.colunas_4{
+	width:23%;
+	float: left;
+	margin-right: 10px;
+}
+
+.fieldset_thumbs{
+	background: #5b5b5b url('images/bt_images.png') no-repeat 98% 5px;
+}
+.fieldset_infos{
+	background: #5b5b5b url('images/bt_infos.png') no-repeat 98% 5px;
+}
+.fieldset_clientes{
+	background: #5b5b5b url('images/bt_clientes.png') no-repeat 98% 5px;
+}
+.fieldset_adicionar_os{
+	background: #5b5b5b url('images/bt_adicionar_os.png') no-repeat 98% 5px;
+}
+.fieldset_quantidade{
+	background: #5b5b5b url('images/bt_calculadora.png') no-repeat 98% 5px;
+}
+.fieldset_previsoes{
+	background: #5b5b5b url('images/bt_calendario.png') no-repeat 98% 5px;
+}
+.fieldset_status{
+	background: #5b5b5b url('images/bt_status.png') no-repeat 98% 5px;
+}
+.fieldset_transporte{
+	background: #5b5b5b url('images/bt_transporte.png') no-repeat 98% 5px;
+}
+.fieldset_notificacoes{
+	background: #5b5b5b url('images/bt_email.png') no-repeat 98% 5px;
+}
+.fieldset_faturamento{
+	background: #5b5b5b url('images/bt_contas_receber.png') no-repeat 98% 5px;
+}
+.fieldset_historico{
+	background: #5b5b5b url('images/bt_relogio.png') no-repeat 98% 5px;
+}
+.fieldset_email{
+	background: #5b5b5b url('images/bt_email.png') no-repeat 98% 5px;
+}
+.fieldset_equipamentos{
+	background: #5b5b5b url('images/bt_equipamentos.png') no-repeat 98% 5px;
+}
+.fieldset_produtos{
+	background: #5b5b5b url('images/bt_produto.png') no-repeat 98% 5px;
+}
+.fieldset_relatorios{
+	background: #5b5b5b url('images/bt_relatorio_financeiro.png') no-repeat 98% 5px;
+}
+.fieldset_carteira{
+	background: #5b5b5b url('images/bt_carteiras.png') no-repeat 98% 5px;
+}
+.fieldset_calendario{
+	background: #5b5b5b url('images/bt_calendario.png') no-repeat 98% 5px;
+}
+.fieldset_dinheiro{
+	background: #008000 url('images/bt_carteiras.png') no-repeat 98% 5px;
+}
+.fieldset_acima{
+	background: #5b5b5b url('images/bt_acima.png') no-repeat 98% 5px;
+}
+.fieldset_abaixo{
+	background: #5b5b5b url('images/bt_abaixo.png') no-repeat 98% 5px;
+}
+.fieldset_atencao{
+	background: #FFCC00 url('images/bt_atencao.png') no-repeat 98% 5px;
+	color: #000;
+}
+.fieldset_printdots{
+	background: #333333 url('images/bt_printdots.png') no-repeat 98% 5px;
+	color: #FFF;
+}
+.fieldset_ok{
+	background: #004455 url('images/button_ok.png') no-repeat 98% 5px;
+	color: #000;
+}
+.frame_faturamento{
+	height:200px;
+}
+.imageright {
+	clear: left;
+	text-align: right;
+	width: 99%;
+}
+.imageright input {
+	width: 32px;
+}
+.bt{
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+.checkbox img{
+	border: 0;
+	width: 22px;
+	background: transparent;
+	cursor: pointer;
+}
+.iframe_upload{
+	margin: 0;
+	border: 0;
+	background: transparent;
+	height: 130px;
+	width: 500px;
+}

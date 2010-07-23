@@ -1,0 +1,466 @@
+body{
+	background-color: #333333;
+	color: #CCCCCC;
+	font-family: "Liberation sans", "Segoe ui", Helvetica, Arial, Tahoma, Verdana;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	background: #333333;
+}
+.wallpaper{
+	position:fixed; 
+	z-index:0;
+	top:-40%;
+	left: -2px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 105%;
+	height: 105%;
+	vertical-align: middle;
+}
+.wallpaper img{
+	width: 100%;
+}
+
+hr {
+	line-height: 2px;
+	border: 0;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #666666;
+	margin: 0;
+	width: 100%;
+	clear: left;
+}
+
+img, img a{
+	border:0;
+}
+a {
+	border:0;
+	text-decoration: none;
+	color: #CCCCCC;
+}
+a:hover{
+	color: #FFFFFF;
+}
+h1, h2, h3, h4, h5 {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+.clear_left{
+	clear: left;
+}
+.clear_right{
+	clear: right;
+}
+.loader{
+	vertical-align: middle;
+	margin: 3px;
+}
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #FFFFFF;
+	background-color: #333333;
+	padding: 5px;
+	opacity: 0.75;
+	font-weight: normal;
+	font-size: 16px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#tooltip abbr, #tooltip div { margin: 0; }
+
+#content{
+	top: 0px;
+	position: absolute;
+	height: auto;
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+	z-index: 1;
+}
+#full_background{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #000000;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+	float: left;
+	z-index:95;
+}
+#full_background img{
+	width:48px;
+	height:48px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-24px;
+	margin-left:-24px;
+}
+#full_frame{
+	background: #333333;
+	position: fixed;
+	width:800px;
+	height:480px;
+	border: 5px solid #CCCCCC;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	overflow: auto;
+	left: 50%;
+	margin-left: -349px;
+	top: 50%;
+	margin-top: -255px;
+	text-align: left;
+	padding: 5px;
+	z-index: 500;
+}
+
+/* login.php */
+.panel_container{
+}
+.panel_container_top{
+	background: url(images/panel_top.png) no-repeat bottom left;
+	height: 30px;
+	padding: 0;
+}
+.panel_container_middle{
+	background: url(images/panel_background.png) repeat-y left;
+	padding: 0 21px;
+	margin: 0;
+}
+.panel_container_middle hr{
+	width: 93%;
+	border: 0;
+	margin: 3px;
+	border-bottom: 6px dotted #333333;
+}
+.panel_container_middle a{
+	width: 30px;
+	height: 30px;
+	line-height: 34px;
+	background: #000000;
+	border: 1px solid #444444;
+	text-align: center;
+	vertical-align: middle;
+	padding: 4px;
+	margin: 4px 0 4px 8px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	display: block;
+	float: left;
+}
+.panel_container_middle #mensagem{
+	padding: 3px;
+	margin-right: 10px;
+	/*height: 100px;
+	overflow: hidden;*/
+	font-size: 11px;
+}
+.panel_container_middle #mensagem img{
+	padding: 0 3px 3px 0;
+	float: left;
+}
+
+.panel_container_middle a:hover{
+	background: #333333 url('images/user_picture_medium.png') 50% 50%;
+}
+.panel_container_bottom{
+	background: url(images/panel_bottom.png) no-repeat top left;
+	height: 20px;
+}
+.panel_container img{
+	width: 28px;
+}
+.panel_container #user_picture img{
+	width: 128px;
+}
+.panel_container #menu_printdots{
+	text-align: center;
+}
+.panel_container #menu_printdots img{
+	width: 140px;
+	
+}
+
+#panel_login{
+	position: fixed;
+	top: 40%;
+	height: 400px;
+	margin-top: -200px;
+	left: 50%;
+	width: 290px;
+	margin-left: -145px;
+	text-align: center;
+	color: #333333;
+}
+#panel_login input{
+	color: #333333;
+}
+#panel_login hr{
+	width: 97%;
+}
+#login_bt{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+#user_picture{
+	text-align: center;
+	height: 171px;
+	padding-top: 40px;
+	/*background: url(images/user_picture_large.png) no-repeat center;*/
+}
+.user_image{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 128px;
+	height: 128px;
+	border: 0;
+}
+.input_login{
+	background: url(images/login_input.png) no-repeat center center;
+	border:0;;
+	padding: 10px;
+	font-size: 200%;
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.login_error{
+	color: #FF0000;
+	background: #FFCC00 url('images/bt_atencao.png') no-repeat 5px 3px;
+	padding: 5px 5px 5px 42px;
+	text-align: left;
+	margin: 10px 25px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#login_bottom_bar{
+	position: fixed;
+	top: 100%;
+	left:0;
+	height: 30px;
+	width: 100%;
+	margin-top: -30px;
+	padding: 10px 0 5px 8px;
+	background: #000000;
+}
+
+/* adm.php */
+#content_left{
+	position: fixed;
+	width: 300px;
+	float: left;
+	z-index: 1;
+}
+#content_right{
+	margin-left: 270px;
+	padding-top: 8px;
+	float: left;
+	width: 720px;
+	height: auto;
+}
+
+#user_picture_medium{
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	/*background: url(images/user_picture_medium.png) no-repeat center center;*/
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#user_picture_medium img{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	border: 0;
+}
+#user_login{
+	width: 135px;
+	font-size: 18px;
+	color: #FFFFFF;
+	float: left;
+}
+#user_login small{
+	color: #666;
+	font-size: 11px;
+}
+#logout{
+	position: absolute;
+	left: 242px;
+	margin-top: -5px;
+	border: 0;
+	z-index: 0;
+}
+#logout img{
+	border: 0;
+	width: 22px;
+}
+
+/* caixas de dias*/
+.days_top{
+	height: 50px;
+	width: 723px;
+	color: #FFFFFF;
+	font-size: 20px;
+	overflow: hidden;
+}
+table {
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: none;
+	border-collapse: separate;
+}
+table th {
+	border-width: 0px;
+	padding: 0px;
+	border-style: none;
+}
+table td {
+	border-width: 0px;
+	padding: 0px;
+	border-style: none;
+}
+
+.days_top_1{
+	background: url(images/days_top_1.png) no-repeat left bottom;
+	width: 38px;
+}
+.days_top_2{
+	background: url(images/days_top_2.png) repeat-x left bottom;
+	padding-top: 18px;
+}
+.days_top_3{
+	background: url(images/days_top_3.png) no-repeat left bottom;
+	width: 52px;
+}
+.days_top_4{
+	background: url(images/days_top_4.png) repeat-x left bottom;
+	padding-top: 24px;
+	font-size: 11px;
+	text-align: right;
+	width: 60%;
+}
+.days_top_5{
+	background: url(images/days_top_5.png) no-repeat right bottom;
+	width: 30px;
+}
+.days_top_click{
+	cursor: pointer;
+}
+
+.days_top_2 img{
+	vertical-align: middle;
+	width: 24px;
+}
+
+/*conteudo dos dias*/
+.days_middle{
+	width: 700px;
+	background: url(images/days_middle.png) repeat-y left;
+	padding: 3px 0px 0px 28px;
+}
+#days_middle{
+	width: 670px;
+	background: url(images/days_middle.png) repeat-y left;
+	padding: 10px 15px 10px 33px;
+}
+
+/* stats */
+.days_stats_top{
+	height: 4px;
+	width: 720px;
+	background: url(images/days_stats_top.png) no-repeat left top;
+}
+.days_stats_top_busca{
+	height: 34px;
+	width: 720px;
+	background: url(images/days_stats_top_busca.png) no-repeat left top;
+}
+.days_stats_middle{
+	width: 680px;
+	background: url(images/days_stats_middle.png) repeat-y left;
+	padding: 10px 0px 10px 40px;
+}
+.days_stats_middle span, .days_middle_grafico{
+	width: 90px;
+	display: block;
+	float: left;
+	margin: 2px 3px 1px 0;
+	padding-right: 2px;
+	border-right: 1px dotted #666666;
+	vertical-align: middle;
+}
+.days_stats_middle .stats_linha{
+	border-bottom: 1px dotted #666666;
+	width: 96%;
+}
+.days_stats_middle .stats_grafico{
+	width: 208px;
+	font-size: 9px;
+}
+.days_stats_middle .stats_tt{
+	width: 200px;
+	border: 1px solid #666;
+	background: #333;
+	padding: 1px;
+	height: 10px;
+	margin: 2px;
+	overflow: hidden;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.days_stats_middle .stats_prc{
+	background: #555555;
+	height: 10px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.days_stats_middle br{
+	clear: left;
+}
+.days_stats_bottom{
+	height: 38px;
+	width: 720px;
+	background: url(images/days_stats_bottom.png) no-repeat left top;
+}
+
+/* filtros */
+.days_group_by{
+	color: #777777;
+	font-size: 11px;
+	text-decoration: none;
+	width: 440px;
+}
+.days_group_by a{
+	color: #777777;
+}
+.days_group_by a:hover{
+	color: #CCCCCC;
+}
+.days_group_by_title{
+	background: url(images/days_group_by_background.png) repeat-y left top;
+	padding: 8px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.days_group_by_description{
+	font-size: 11px;	
+	color: #999999;
+}
+
